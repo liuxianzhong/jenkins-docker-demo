@@ -15,8 +15,8 @@ public class DockerController {
 
     @RequestMapping("/")
     public String index() {
-        log.info("Hello Idea Docker!");
-        return "Hello Idea Docker!";
+        log.info("Hello Jenkins Docker!");
+        return "Hello Jenkins Docker!";
     }
 
 }
