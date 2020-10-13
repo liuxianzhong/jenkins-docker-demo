@@ -93,7 +93,7 @@
                 </executions>
                 <configuration>
                     <imageName>docker-demo/${project.artifactId}:${project.version}</imageName>
-                    <dockerHost>http://192.168.23.135:2375</dockerHost>
+                    <dockerHost>http://39.98.153.160:2375</dockerHost>
                     <baseImage>java:8</baseImage>
                     <entryPoint>["java", "-jar","/${project.build.finalName}.jar"]
                     </entryPoint>
