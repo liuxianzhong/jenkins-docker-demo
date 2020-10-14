@@ -15,8 +15,8 @@ public class DockerController {
 
     @RequestMapping("/")
     public String index() {
-        log.info("Hello SpringBoot App + Jenkins from Docker!");
-        return "Hello SpringBoot App + Jenkins from Docker!";
+        log.info("Hello SpringBoot Jenkins from Docker!");
+        return "Hello SpringBoot Jenkins from Docker!";
     }
 
 }
